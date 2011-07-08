@@ -6,6 +6,9 @@
 # Samsung-tools
 add-apt-repository ppa:voria
 
+# TransmissionBT
+add-apt-repository ppa:transmissionbt/ppa
+
 # Unity
 add-apt-repository ppa:unity/ppa
 
