@@ -15,7 +15,7 @@ geany build-essential debhelper fakeroot git-core mercurial
 warzone2100 violetland 
 #media
 vlc ubuntu-restricted-extras libdvdcss2 libdvdnav4 
-smplayer deadbeef deadbeef-plugins-dev soundconverter 
+umplayer deadbeef deadbeef-plugins-dev soundconverter 
 audacity gnome-mplayer w32codecs 
 #themes
 community-themes 

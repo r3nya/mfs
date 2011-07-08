@@ -2,16 +2,22 @@
 
 #repos
 
+# LibreOffice
+add-apt-repository ppa:libreoffice/ppa
+# umplayer+mplayer
+add-apt-repository ppa:webupd8team/umplayer
+add-apt-repository ppa:motumedia/mplayer-daily
 # deadbeef
 add-apt-repository ppa:alexey-smirnov/deadbeef
 # docky
-add-apt-repository ppa:docky-core
+#add-apt-repository ppa:docky-core
 # psi+
-add-apt-repository ppa:zerkalica/psi-plus
+#add-apt-repository ppa:zerkalica/psi-plus
 # ubuntu-tweak
 add-apt-repository ppa:tualatrix/ppa
-add-apt-repository ppa:elementaryart/ppa
-add-apt-repository ppa:elementaryart/elementarydesktop
+# Elementary
+#add-apt-repository ppa:elementaryart/ppa
+#add-apt-repository ppa:elementaryart/elementarydesktop
 # itmages.ru
 add-apt-repository ppa:itmages/software
 add-apt-repository "deb http://apt.wakoopa.com all main" && wget -q -O- http://apt.wakoopa.com/pubkey.txt | apt-key add -

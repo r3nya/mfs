@@ -4,7 +4,10 @@
 #repos
 
 # Samsung-tools
-apt-add-repository ppa:voria
+add-apt-repository ppa:voria
+
+# Unity
+add-apt-repository ppa:unity/ppa
 
 # LibreOffice
 add-apt-repository ppa:libreoffice/ppa
