@@ -6,6 +6,9 @@
 # Samsung-tools
 add-apt-repository ppa:voria
 
+# openshot
+add-apt-repository ppa:openshot.developers/ppa
+
 # TransmissionBT
 add-apt-repository ppa:transmissionbt/ppa
 
