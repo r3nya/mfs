@@ -1,5 +1,5 @@
 #tools
-ubuntu-tweak vim p7zip-full unrar unrar-free rar aptoncd blueman cheese itmages-nautilus-extension 
+ubuntu-tweak dcong-tools vim p7zip-full unrar unrar-free rar aptoncd blueman cheese itmages-nautilus-extension 
 #graphics
 inkscape gimp 
 #internets
