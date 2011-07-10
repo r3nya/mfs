@@ -1,37 +1,38 @@
 #!/bin/bash
 # Script for R.
 
+add='add-apt-repository'
 #repos
 
 # Samsung-tools
-add-apt-repository ppa:voria
+$add ppa:voria
 
 # openshot
-add-apt-repository ppa:openshot.developers/ppa
+$add ppa:openshot.developers/ppa
 
 # TransmissionBT
-add-apt-repository ppa:transmissionbt/ppa
+$add ppa:transmissionbt/ppa
 
 # Unity
-add-apt-repository ppa:unity/ppa
+$add ppa:unity/ppa
 
 # LibreOffice
-add-apt-repository ppa:libreoffice/ppa
+$add ppa:libreoffice/ppa
 
 # Chromium stable
-add-apt-repository ppa:chromium-daily/stable
+$add ppa:chromium-daily/stable
 
 # umplayer+mplayer
-add-apt-repository ppa:webupd8team/umplayer
-add-apt-repository ppa:motumedia/mplayer-daily
+$add ppa:webupd8team/umplayer
+$add ppa:motumedia/mplayer-daily
 
 # deadbeef
-add-apt-repository ppa:alexey-smirnov/deadbeef
+$add ppa:alexey-smirnov/deadbeef
 
 # ubuntu-tweak
-add-apt-repository ppa:tualatrix/ppa
+$add ppa:tualatrix/ppa
 
-add-apt-repository "deb http://linux.dropbox.com/ubuntu $(lsb_release -cs) #main" && wget -q -O- http://ubuntu-tweak.com/source/dropbox/key | apt-key add -
+$add "deb http://linux.dropbox.com/ubuntu $(lsb_release -cs) #main" && wget -q -O- http://ubuntu-tweak.com/source/dropbox/key | apt-key add -
 
 apt-key adv --keyserver pgp.mit.edu --recv-keys 0xd66b746e
 wget --output-document=/etc/apt/sources.list.d/medibuntu.list http://www.medibuntu.org/sources.list.d/$(lsb_release -cs).list && \

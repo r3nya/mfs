@@ -1,28 +1,29 @@
 #!/bin/bash
 
+add='add-apt-repository'
 #repos
 
 # LibreOffice
-add-apt-repository ppa:libreoffice/ppa
+$add ppa:libreoffice/ppa
 # umplayer+mplayer
-add-apt-repository ppa:webupd8team/umplayer
-add-apt-repository ppa:motumedia/mplayer-daily
+$add ppa:webupd8team/umplayer
+$add ppa:motumedia/mplayer-daily
 # deadbeef
-add-apt-repository ppa:alexey-smirnov/deadbeef
+$add ppa:alexey-smirnov/deadbeef
 # docky
-#add-apt-repository ppa:docky-core
+#$add ppa:docky-core
 # psi+
 #add-apt-repository ppa:zerkalica/psi-plus
 # ubuntu-tweak
-add-apt-repository ppa:tualatrix/ppa
+$add ppa:tualatrix/ppa
 # Elementary
 #add-apt-repository ppa:elementaryart/ppa
 #add-apt-repository ppa:elementaryart/elementarydesktop
 # itmages.ru
-add-apt-repository ppa:itmages/software
-add-apt-repository "deb http://apt.wakoopa.com all main" && wget -q -O- http://apt.wakoopa.com/pubkey.txt | apt-key add -
-add-apt-repository "deb http://archive.getdeb.net/ubuntu $(lsb_release -cs)-#getdeb games" && wget -q -O- http://archive.getdeb.net/getdeb-archive.key | apt-key add -
-add-apt-repository "deb http://linux.dropbox.com/ubuntu $(lsb_release -cs) #main" && wget -q -O- http://ubuntu-tweak.com/source/dropbox/key | apt-key add -
+$add ppa:itmages/software
+$add "deb http://apt.wakoopa.com all main" && wget -q -O- http://apt.wakoopa.com/pubkey.txt | apt-key add -
+$add "deb http://archive.getdeb.net/ubuntu $(lsb_release -cs)-#getdeb games" && wget -q -O- http://archive.getdeb.net/getdeb-archive.key | apt-key add -
+$add "deb http://linux.dropbox.com/ubuntu $(lsb_release -cs) #main" && wget -q -O- http://ubuntu-tweak.com/source/dropbox/key | apt-key add -
 echo "deb http://download.skype.com/linux/repos/debian/ stable non-free #Skype" | tee -a /etc/apt/sources.list > /dev/null
 
 apt-key adv --keyserver pgp.mit.edu --recv-keys 0xd66b746e
