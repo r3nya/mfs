@@ -20,4 +20,4 @@ audacity gnome-mplayer w32codecs
 #themes
 community-themes 
 #other
-wine python-pycurl wakoopa 
+nautilus-open-terminal wine python-pycurl wakoopa 
