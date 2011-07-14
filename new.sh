@@ -8,6 +8,9 @@ add='add-apt-repository'
 # Samsung-tools
 $add ppa:voria
 
+# Hotot twitter client
+$add ppa:hotot-team
+
 # openshot
 $add ppa:openshot.developers/ppa
 

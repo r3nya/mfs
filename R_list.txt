@@ -3,7 +3,7 @@ ubuntu-tweak p7zip-full unrar unrar-free rar aptoncd cheese
 #graphics
 inkscape gimp 
 #internets
-qutim nautilus-dropbox skype googleearth 
+hotot nautilus-dropbox skype googleearth 
 chromium-browser chromium-browser-inspector chromium-browser-l10n 
 chromium-codecs-ffmpeg-extra chromium-codecs-ffmpeg-nonfree 
 #dev
@@ -15,6 +15,8 @@ umplayer ubuntu-restricted-extras libdvdcss2 libdvdnav4
 deadbeef deadbeef-plugins-dev soundconverter 
 audacity w32codecs 
 #themes
-community-themes 
+#community-themes 
 #other
-wine python-pycurl samsung-tools samsung-backlight compizconfig-settings-manager
+wine python-pycurl compizconfig-settings-manager
+# For Samsung notebook
+samsung-tools samsung-backlight
