@@ -3,7 +3,7 @@
 
 add='add-apt-repository'
 
-#repos
+# repos
 
 # Samsung-tools
 $add ppa:voria
@@ -11,7 +11,7 @@ $add ppa:voria
 # Hotot twitter client
 $add ppa:hotot-team
 
-# openshot
+# Openshot
 $add ppa:openshot.developers/ppa
 
 # TransmissionBT
@@ -30,14 +30,16 @@ $add ppa:chromium-daily/stable
 $add ppa:webupd8team/umplayer
 $add ppa:motumedia/mplayer-daily
 
-# deadbeef
+# Deadbeef
 $add ppa:alexey-smirnov/deadbeef
 
-# ubuntu-tweak
+# Ubuntu-tweak
 $add ppa:tualatrix/ppa
 
+# Dropbox
 $add "deb http://linux.dropbox.com/ubuntu $(lsb_release -cs) #main" && wget -q -O- http://ubuntu-tweak.com/source/dropbox/key | apt-key add -
 
+# Medibuntu
 apt-key adv --keyserver pgp.mit.edu --recv-keys 0xd66b746e
 wget --output-document=/etc/apt/sources.list.d/medibuntu.list http://www.medibuntu.org/sources.list.d/$(lsb_release -cs).list && \
 apt-get --quiet update && apt-get --yes --quiet --allow-unauthenticated install medibuntu-keyring
@@ -47,3 +49,5 @@ apt-get --yes --quiet --allow-unauthenticated install `cat ./R_list.txt | sed 's
 
 #Upgrade
 apt-get upgrade
+
+# Well done ^^
