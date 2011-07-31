@@ -1,5 +1,5 @@
 #tools
-ubuntu-tweak p7zip-full unrar unrar-free rar aptoncd cheese
+ubuntu-tweak p7zip-full unrar unrar-free rar aptoncd cheese htop
 #graphics
 inkscape gimp 
 #internets
@@ -20,3 +20,5 @@ audacity w32codecs
 wine python-pycurl compizconfig-settings-manager
 # For Samsung notebook
 samsung-tools samsung-backlight
+# Get hardware information
+lshw hardinfo
