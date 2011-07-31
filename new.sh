@@ -17,6 +17,9 @@ $add ppa:openshot.developers/ppa
 # TransmissionBT
 $add ppa:transmissionbt/ppa
 
+# WebUpd8 Themes PPA
+$add ppa:webupd8team/themes
+
 # Unity
 $add ppa:unity/ppa
 
