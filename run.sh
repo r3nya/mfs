@@ -11,6 +11,10 @@ $add ppa:voria
 # Hotot twitter client
 $add ppa:hotot-team
 
+#Opera Browser
+$add 'deb http://deb.opera.com/opera/ stable non-free'
+wget -O - http://deb.opera.com/archive.key | apt-key add -
+
 # Openshot
 $add ppa:openshot.developers/ppa
 
