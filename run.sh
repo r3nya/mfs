@@ -44,7 +44,7 @@ $add ppa:alexey-smirnov/deadbeef
 $add ppa:tualatrix/ppa
 
 # Dropbox
-$add "deb http://linux.dropbox.com/ubuntu $(lsb_release -cs) #main" && wget -q -O- http://ubuntu-tweak.com/source/dropbox/key | apt-key add -
+$add "deb http://linux.dropbox.com/ubuntu $(lsb_release -cs) main" && wget -q -O- http://ubuntu-tweak.com/source/dropbox/key | apt-key add -
 
 # Medibuntu
 apt-key adv --keyserver pgp.mit.edu --recv-keys 0xd66b746e
